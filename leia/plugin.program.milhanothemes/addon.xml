@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.milhanothemes" name="Milhano Themes" version="2.1" provider-name="Milhano Themes">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Milhano Themes</summary>
+    <description lang="en">Welcome to the Milhano Themes where you can get all the latest Milhano Custom Themes for kodi 17,18</description>
+    <platform>all</platform>
+  </extension>
+</addon>
