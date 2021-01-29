@@ -26,5 +26,12 @@
     <description>TEAM MILHANO "WE LEAD THE WAY"
  </description>
     <platform>all</platform>
+	<assets>
+      <icon>icon.gif</icon>
+      <fanart>fanart.gif</fanart>
+      <screenshot>resources/screenshot000.jpg</screenshot>
+      <screenshot>resources/screenshot001.jpg</screenshot>
+      <screenshot>resources/screenshot002.jpg</screenshot>
+    </assets>
   </extension>
 </addon>
