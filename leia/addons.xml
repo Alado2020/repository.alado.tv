@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/B][/COLOR]" version="1.4" provider-name="[B][COLOR yellow]TEAM [/COLOR][COLOR lime]MILHANOS [/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>BY TEAM MILHANO</summary>
+    <description>TEAM MILHANO "WE LEAD THE WAY"
+ </description>
+    <platform>all</platform>
+  <assets>
+    <icon>icon.gif</icon>
+    <fanart>fanart.gif</fanart>
+  </assets>
+  </extension>
+ </addon>	
+
 <addon id="themes.j2mf4" name="[COLOR blue]Themes[/COLOR] [COLOR lavender]J2MF4[/COLOR]" version="1.0" provider-name="Themes J2MF4">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
