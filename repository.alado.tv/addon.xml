@@ -15,5 +15,12 @@
 		<description>[COLOR gold]By Team Milhano[/COLOR]</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
+	<assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.gif</fanart>
+        <screenshot>resources/screenshot000.jpg</screenshot>
+        <screenshot>resources/screenshot001.jpg</screenshot>
+        <screenshot>resources/screenshot002.jpg</screenshot>
+    </assets>
 	</extension>
 </addon>
