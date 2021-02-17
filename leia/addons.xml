@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="wizard.j2mf4" name="[COLOR blue]Wizard[/COLOR] [COLOR lavender]J2MF4[/COLOR]" version="4.0" provider-name="Wizard J2MF4">
+<addon id="Wizard.Milhano" name="[COLOR blue]Wizard[/COLOR] [COLOR lavender]Milhano[/COLOR]" version="17.02.2021" provider-name="Wizard Milhano">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,7 +11,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">TEAM MILHANO</summary>
-    <description lang="en">Wizard j2mf4 é o instalador de addons kodi desenvolvidos pela Team Milhano</description>
+    <description lang="en">Wizard Milhano é o instalador kodi desenvolvido pela Team Milhano</description>
     <platform>all</platform>
   </extension>
 </addon>
