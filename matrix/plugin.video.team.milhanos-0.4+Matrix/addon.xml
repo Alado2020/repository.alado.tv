@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.4+Matrix" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>  
+<extension point="xbmc.addon.repository" name="[COLOR lime]TEAM[B][/COLOR][COLOR yellow] MILHANOS[/B][/COLOR]">
+	<info compressed="false">https://raw.githubusercontent.com/Alado2020/repo.alado/master/addons.xml</info>
+	<checksum>https://raw.githubusercontent.com/Alado2020/repo.alado/master/addons.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repo.alado/master/</datadir>
+	<hashes>false</hashes>
+</extension>  
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<summary lang="pt">BY TEAM MILHANO</summary>
+	<description lang="en"></description>
+	<description lang="pt">TEAM MILHANO "WE LEAD THE WAY"</description>
+    <disclaimer lang="en"></disclaimer>
+	<disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+	<assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.gif</fanart>
+    </assets>
+<news>Team Milhanos no Kodi Matrix plataforma Python3</news>
+</extension>
+</addon>
