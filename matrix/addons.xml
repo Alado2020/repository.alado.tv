@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="repository.host505" name="host505 repo" version="2.4" provider-name="host505">
+    <extension point="xbmc.addon.repository" name="host505 repo">
+    <dir>
+        <info compressed="false">https://github.com/host505/repository.host505/raw/master/addons.xml</info>
+        <checksum>https://github.com/host505/repository.host505/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/host505/repository.host505/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+    </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Testing and Learning stuff</summary>
+        <description>host505 repo</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="3.5.006">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.theoath.artwork" />
+        <import addon="script.theoath.metadata" />
+        <import addon="script.module.resolveurl" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.oathscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.openscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="theoath.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">TheOath</summary>
+        <description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Openscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.5+matrix.1" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -120,46 +185,6 @@ v3.0.0
     </news>
     <reuselanguageinvoker>true</reuselanguageinvoker>
   </extension>
-</addon>
-
-<addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="3.5.003">
-    <requires>
-        <!--<import addon="xbmc.python" version="2.20.0" />-->
-        <import addon="script.theoath.artwork" />
-        <import addon="script.theoath.metadata" />
-        <import addon="script.module.resolveurl" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.oathscrapers" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.openscrapers" optional="true" />
-        <import addon="script.module.orion" optional="true" />
-        <import addon="plugin.video.youtube" optional="true" />
-    </requires>
-    <extension library="theoath.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension library="service.py" point="xbmc.service" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <summary lang="en_GB">TheOath</summary>
-        <description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Openscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
-        <website />
-        <source />
-        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <news>
-- See Changelog on Tools menu
-        </news>
-    </extension>
 </addon>
 
 <addon id="xbmc.python" version="3.0.0" provider-name="Team Kodi">
