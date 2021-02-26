@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.4a+matrix.1" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]"> 
+<addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]" version="0.5+matrix.1" provider-name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/COLOR] [COLOR red] MATRIX [/B][/COLOR]"> 
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests"/>
