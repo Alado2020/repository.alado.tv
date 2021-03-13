@@ -30,7 +30,9 @@
 	<disclaimer lang="pt"></disclaimer>
     <platform>all</platform>
 	<assets>
-       <icon>resources/art/icon.gif</icon>
+<icon>icon.gif</icon>
+    <fanart>fanart.gif</fanart>
+<icon>resources/art/icon.gif</icon>
        <fanart>resources/art/fanart.gif</fanart>
     </assets>	
 <news>Team Milhanos no Kodi Matrix plataforma Python3</news>
