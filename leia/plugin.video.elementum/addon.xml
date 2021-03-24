@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.69" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.72" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -29,7 +29,7 @@
         <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
+            <fanart>fanart.jpg</fanart>
             <screenshot>resources/screenshots/home.png</screenshot>
             <screenshot>resources/screenshots/movies.png</screenshot>
             <screenshot>resources/screenshots/webui.png</screenshot>
