@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="Wizard.Alado" name="[COLOR lime]Wizard[/COLOR] [COLOR yellow]Alado[/COLOR]" version="24.04.21" provider-name="Wizard Alado">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TEAM MILHANO</summary>
-    <description lang="en">Wizard Alado é o instalador kodi desenvolvido pela Team Milhano</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.10" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
@@ -155,37 +140,6 @@
 <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 		
 	</extension>
-</addon>
-
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.64" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="plugin.video.elementum" optional="true"/>
-        <import addon="script.module.kodi-six" />
-        <import addon="script.module.future" version="0.16.0.4"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-		<summary lang="es">Proveedor de torrents Elementum</summary>
-        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
-		<description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-		<disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>    
-		<license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/script.elementum.burst</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="plugin.video.team.milhanos" name="[B][COLOR lime]TEAM [/COLOR][COLOR yellow]MILHANOS [/B][/COLOR]" version="1.5" provider-name="[B][COLOR yellow]TEAM [/COLOR][COLOR lime]MILHANOS [/B][/COLOR]">
