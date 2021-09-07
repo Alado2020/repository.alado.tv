@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mundo.milhanos.matrix"
+       name="[B][COLOR lime]MUNDO [/COLOR][COLOR yellow]MILHANOS [/COLOR][COLOR red] MATRIX [/B][/COLOR]"
+       version="2.0+mtx.1"
+       provider-name="[B][COLOR lime]MUNDO [/COLOR][COLOR yellow]MILHANOS [/COLOR][COLOR red] MATRIX [/B][/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">BY TEAM MILHANO</summary>
+        <description>TEAM MILHANO "WE LEAD THE WAY"</description>
+        <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+  </extension>
+</addon>
