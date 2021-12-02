@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.video.f4mTester" version="4.0.1" name="f4mTester" provider-name="Shani">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="inputstream.ffmpegdirect"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">f4mTester</summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+			<icon>icon.png</icon>
+		</assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.theanonymous" name="[B][COLOR lime]TheAnonymous [/COLOR] [COLOR yellow]Leia [COLOR red]Matrix [/B][/COLOR]" version="1.8+matrix" provider-name="[B][COLOR yellow]TheAnonymous [/COLOR] [COLOR lime]Leia [COLOR red]Matrix [/B][/COLOR]"> 
 <requires>
     <!-- Commenting xbmc.python allows install on all versions of Kodi -->
