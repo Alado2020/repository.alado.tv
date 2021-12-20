@@ -125,7 +125,6 @@ addon id="plugin.video.iptv-org" name="IPTV-org" version="0.0.1" provider-name="
 </addon>
 
 
-
 <addon id="plugin.video.beats.hd.records" name="[COLOR white][B]Beats HD[COLOR lime].[COLOR white]Records [/B][/COLOR]" version="1.0" provider-name="frenchdj">
 	<requires>
 		<import addon="script.module.six" />
@@ -233,8 +232,8 @@ www.facebook.com/Beats.HD.Records/  [/COLOR]
 </addon>
 
 <addon 	
-		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]"
-		version="3.10"
+		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
+		version="3.15"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 		
 		<requires>
@@ -278,15 +277,7 @@ www.facebook.com/Beats.HD.Records/  [/COLOR]
 			<fanart>fanart.jpg</fanart>
         </assets>
 				
-	<news>
-	[COLOR orange]LOG DE CORREÇÔES[/COLOR]
-	
-	[COLOR green]*[/COLOR] V 2.00 - compatibilidade com Kodi 19 Matrix
-	[COLOR blue]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR red]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR orange]*[/COLOR] V 1.15.1 - Excluido a instalação do plugin Youtube que provocava erros em algumas box...
-	[COLOR gold]*[/COLOR]   V 1.17.1 - Corrigido dependências que provocava erros quando instalado o repositório em Kodi Padrão.
-	</news>
+	<news></news>
 		
 	<summary>Repositório Vikings levando os melhores addons a sua familia e aos quatro cantos do Mundo!!!</summary>
 		
@@ -301,7 +292,6 @@ www.facebook.com/Beats.HD.Records/  [/COLOR]
 		
 	</extension>
 </addon>
-
 
 <addon id="repository.host505" name="host505 repo" version="2.4" provider-name="host505">
     <extension point="xbmc.addon.repository" name="host505 repo">

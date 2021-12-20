@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 	
-		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]"
-		version="3.10"
+		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
+		version="3.15"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 		
 		<requires>
@@ -45,15 +45,7 @@
 			<fanart>fanart.jpg</fanart>
         </assets>
 				
-	<news>
-	[COLOR orange]LOG DE CORREÇÔES[/COLOR]
-	
-	[COLOR green]*[/COLOR] V 2.00 - compatibilidade com Kodi 19 Matrix
-	[COLOR blue]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR red]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR orange]*[/COLOR] V 1.15.1 - Excluido a instalação do plugin Youtube que provocava erros em algumas box...
-	[COLOR gold]*[/COLOR]   V 1.17.1 - Corrigido dependências que provocava erros quando instalado o repositório em Kodi Padrão.
-	</news>
+	<news></news>
 		
 	<summary>Repositório Vikings levando os melhores addons a sua familia e aos quatro cantos do Mundo!!!</summary>
 		
