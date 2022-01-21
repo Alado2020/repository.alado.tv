@@ -32,35 +32,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.theanonymous" name="[B][COLOR lime]TheAnonymous [/B][/COLOR]" version="1.6" provider-name="[B][COLOR yellow]TheAnonymous [/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-	<import addon="script.module.livestreamer" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>By TheAnonymous</summary>
-    <description>TheAnonymous "WE LEAD THE WAY"
- </description>
-    <platform>all</platform>
-  <assets>
-    <icon>icon.gif</icon>
-    <fanart>fanart.gif</fanart>
-  </assets>
-  </extension>
- </addon>
- 
 <addon id="plugin.video.alado.livetv"
        name="[COLOR lime]Alado Live TV[/COLOR]"
        version="0.0.2"
