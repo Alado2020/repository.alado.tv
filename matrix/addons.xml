@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.theanonymous.matrix" name="[B][COLOR lime]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]" version="2.3+matrix" provider-name="[B][COLOR yellow]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]"> 
+<addon id="plugin.video.theanonymous.matrix" name="[B][COLOR lime]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]" version="2.4" provider-name="[B][COLOR yellow]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]"> 
 <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.simplejson"/>
