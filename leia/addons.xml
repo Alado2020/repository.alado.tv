@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.theanonymous" name="[B][COLOR lime]TheAnonymous [/B][/COLOR]" version="1.7" provider-name="[B][COLOR yellow]TheAnonymous [/B][/COLOR]">
+<addon id="plugin.video.theanonymous" name="[B][COLOR lime]TheAnonymous [/B][/COLOR]" version="1.8" provider-name="[B][COLOR yellow]TheAnonymous [/B][/COLOR]">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
