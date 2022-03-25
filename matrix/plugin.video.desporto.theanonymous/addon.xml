@@ -37,8 +37,8 @@
 	<disclaimer lang="pt"></disclaimer>
     <platform>all</platform>
 	<assets>
-       <icon>icon.gif</icon>
-       <fanart>fanart.gif</fanart>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
     </assets>	
 <news>Desporto TheAnonymous para Kodi Leia e Matrix</news>
 </extension>
