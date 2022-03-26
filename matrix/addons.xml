@@ -421,57 +421,6 @@ v5.1.2 (2020-03-21) by enen92
   </extension>
 </addon>
 
-<addon id="repository.frenchdj" name="frenchdj repository" version="0.0.2" provider-name="frenchdj">
-	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
-		<info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>frenchdj repository</summary>
-		<description>frenchdj addons repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-<addon id="plugin.video.beats.hd.records" name="[COLOR white][B]Beats HD[COLOR lime].[COLOR white]Records [/B][/COLOR]" version="1.0" provider-name="frenchdj">
-	<requires>
-		<import addon="script.module.six" />
-		<import addon="script.module.kodi-six" />
-		<import addon="script.module.requests" optional="true"/>
-		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
-		<import addon="script.module.youtube.dl" optional="true"/>
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">[ Record Label ]</summary>
-		<description>[COLOR lime]. Techno Label[COLOR white] Based in Lisbon, Portugal.
-Beats HD Label promotes mostly Peak Time Techno, Acid Techno, Hypnotic Techno, Raw Techno, Dark Techno and some Hard Techno.
-[COLOR lime]. [COLOR white]Follow Beats HD Records [COLOR lime]:
-[COLOR white]twitter.com/BeatsHD_Records
-www.instagram.com/beatshdrecords/
-www.facebook.com/Beats.HD.Records/  [/COLOR] 
-[B][COLOR lime]Advised the latest version of youtube 6.*.*[/B][/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.theoath" name="TheOath" provider-name="host505" version="4.00.24">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
