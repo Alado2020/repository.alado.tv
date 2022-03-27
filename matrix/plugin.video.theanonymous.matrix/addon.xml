@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.theanonymous.matrix" name="[B][COLOR lime]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]" version="2.4" provider-name="[B][COLOR yellow]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]"> 
+<addon id="plugin.video.theanonymous.matrix" name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]" version="2.6" provider-name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]"> 
 <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.simplejson"/>
@@ -28,8 +28,8 @@
 	<disclaimer lang="pt"></disclaimer>
     <platform>all</platform>
 	<assets>
-       <icon>icon.gif</icon>
-       <fanart>fanart.gif</fanart>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
     </assets>	
 <news>TheAnonymous no Kodi Matrix plataforma Python3</news>
 </extension>
