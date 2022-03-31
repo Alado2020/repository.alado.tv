@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.theanonymous" name="[B][COLOR lime]TheAnonymous [/B][/COLOR]" version="2.0" provider-name="[B][COLOR yellow]TheAnonymous [/B][/COLOR]">
+<addon id="plugin.video.theanonymous" name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Leia[/B][/COLOR]" version="2.1" provider-name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Leia[/B][/COLOR]">
   <requires>
 	<import addon="xbmc.python" version="2.1.0" />
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -32,7 +32,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   </extension>
- </addon>
+ </addon>	
  
 <addon id="plugin.video.desporto.theanonymous" name="[B][COLOR yellow]Desporto[/COLOR] [COLOR cyan]TheAnonymous[/B][/COLOR]" version="1.4" provider-name="[B][COLOR cyan]Desporto[/COLOR] [COLOR yellow]TheAnonymous[/B][/COLOR]"> 
 <requires>
