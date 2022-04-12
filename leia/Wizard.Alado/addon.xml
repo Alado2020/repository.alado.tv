@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="Wizard.Alado" name="[COLOR lime]Wizard[/COLOR] [COLOR yellow]Alado[/COLOR]" version="1.3" provider-name="[COLOR yellow]Wizard[/COLOR] [COLOR lime]Alado[/COLOR]">
+<addon id="Wizard.Alado" name="[COLOR lime]Wizard[/COLOR] [COLOR yellow]Alado[/COLOR]" version="1.4" provider-name="[COLOR yellow]Wizard[/COLOR] [COLOR lime]Alado[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">TEAM MILHANO</summary>
-    <description lang="en">Wizard Alado é o instalador kodi desenvolvido pela Team Milhano</description>
+    <summary lang="en">by TheAnonymous</summary>
+    <description lang="en">Wizard Alado é o instalador kodi desenvolvido pela Team TheAnonymous</description>
     <platform>all</platform>
   </extension>
 </addon>
