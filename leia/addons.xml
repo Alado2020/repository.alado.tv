@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.video.tvworld"
+       name="[COLOR lime]TV WORLD[/COLOR]"
+       version="1.0"
+       provider-name="[COLOR yellow]TV WORLD[/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">By TheAnonymous</summary>
+        <description>"WE LEAD THE WAY"</description>
+        <disclaimer lang="en">By TheAnonymous</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="Wizard.Alado" name="[COLOR lime]Wizard[/COLOR] [COLOR yellow]Alado[/COLOR]" version="1.4" provider-name="[COLOR yellow]Wizard[/COLOR] [COLOR lime]Alado[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
