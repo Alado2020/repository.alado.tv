@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.video.tvworld"
+       name="[COLOR lime]TV WORLD[/COLOR]"
+       version="1.0"
+       provider-name="[COLOR yellow]TV WORLD[/COLOR]">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
+    <import addon="script.module.pycryptodome" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.future" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">By TheAnonymous</summary>
+        <description>"WE LEAD THE WAY"</description>
+        <disclaimer lang="en">By TheAnonymous</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.theanonymous.matrix" name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]" version="2.6" provider-name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Matrix [/B][/COLOR]"> 
 <requires>
     <import addon="script.module.requests"/>
@@ -513,31 +546,6 @@ v5.1.2 (2020-03-21) by enen92
 <disclaimer>[B][COLOR orange]Repositório Vikings é apenas um AGREGADOR de ADDONS e, assim como o Google.com, apenas agrega e organiza ADDONS DE TERCEIROS. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
 		
 	</extension>
-</addon>
-
-<addon id="repository.host505" name="host505 repo" version="2.4" provider-name="host505">
-    <extension point="xbmc.addon.repository" name="host505 repo">
-    <dir>
-        <info compressed="false">https://github.com/host505/repository.host505/raw/master/addons.xml</info>
-        <checksum>https://github.com/host505/repository.host505/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/host505/repository.host505/master/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-    </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Testing and Learning stuff</summary>
-        <description>host505 repo</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="plugin.video.redbull.tv" name="Red Bull TV" version="3.2.2+matrix.1" provider-name="piejanssens">
