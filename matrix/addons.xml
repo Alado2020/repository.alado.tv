@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.program.Alado.Matrix" name="[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]" version="1.4" provider-name="Alado">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]</summary>
+        <description lang="en">[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR] offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+2.0.0
+ - Kodi 19 ready
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Milhano" version="0.0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -993,38 +1025,6 @@ v3.0.0
     </assets>	
 <news>Desporto TheAnonymous para Kodi Leia e Matrix</news>
 </extension>
-</addon>
-
-<addon id="plugin.program.Alado.Matrix" name="[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]" version="1.4" provider-name="Alado">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
-    </requires>
-    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    
-    <extension point="xbmc.service" library="startup.py" start="startup" />
-    
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]</summary>
-        <description lang="en">[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR] offers many maintenance features, selective add-on data saving, and automated build installs.</description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
-        <news>
-2.0.0
- - Kodi 19 ready
- - Initial Commit
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="plugin.video.alado.livetv"
