@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+	id="plugin.video.train.mac.again" version="1.0" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
+  <requires>    		
+    	<!--<import addon="script.module.resolveurl" /> -->   	
+        <import addon="script.module.requests"/>	
+	
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="pt">GRUPO: Train_Again</summary>
+		<description lang="pt">Este addon fornece IPTV apenas para uso pessoal e privado (Addon sem fins lucrativos)...</description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="pt">[COLORorange]GRUPO: @TRAIN_AGAIN[/COLOR]</disclaimer>
+	<assets>
+        <icon>icon.jpg</icon>  
+        <fanart>fanart.png</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
+	
+</addon>
