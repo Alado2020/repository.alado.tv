@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon
+	id="plugin.video.train.mac.again" version="1.1" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
+  <requires>    		
+    	<!--<import addon="script.module.resolveurl" /> -->   	
+        <import addon="script.module.requests"/>	
+	
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="pt">GRUPO: Train_Again</summary>
+		<description lang="pt">Este addon fornece IPTV apenas para uso pessoal e privado (Addon sem fins lucrativos)...</description>
+		<website>https://github.com/</website>
+		<license>GPL 3.0</license>
+		<platform>all</platform>
+		<disclaimer lang="pt">[COLORorange]GRUPO: @TRAIN_AGAIN[/COLOR]</disclaimer>
+	<assets>
+        <icon>icon.gif</icon>  
+        <fanart>fanart.png</fanart>
+    </assets>        
+		<language>pt</language>
+	</extension>	
+	
+</addon>
+
 <addon id="script.pvr.stalker.Train_Again" name="[COLORorange]Pach API Stalker[/COLOR]" version="2.3" provider-name="[COLORorange]GRUPO TRAIN_AGAIN[/COLOR] - Train_Again, adm:Cleber,Sepol">
    <requires>
 	<import addon="script.module.six" />
@@ -26,65 +54,6 @@
      <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon>
-
-<addon id="plugin.video.train.mac.again" version="1.0" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
-  <requires>    		
-    	<!--<import addon="script.module.resolveurl" /> -->   	
-        <import addon="script.module.requests"/>	
-	
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="pt">GRUPO: Train_Again</summary>
-		<description lang="pt">Este addon fornece IPTV apenas para uso pessoal e privado (Addon sem fins lucrativos)...</description>
-		<website>https://github.com/</website>
-		<license>GPL 3.0</license>
-		<platform>all</platform>
-		<disclaimer lang="pt">[COLORorange]GRUPO: @TRAIN_AGAIN[/COLOR]</disclaimer>
-	<assets>
-        <icon>icon.jpg</icon>  
-        <fanart>fanart.png</fanart>
-    </assets>        
-		<language>pt</language>
-	</extension>	
-	
-</addon>
-
-<addon id="Wizard.Alado.Matrix" name="[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]" version="1.5" provider-name="Alado">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.kodi.android.update" optional="true" version="1.3.4" />
-    </requires>
-    
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    
-    <extension point="xbmc.service" library="startup.py" start="startup" />
-    
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR lime]Alado [COLOR yellow]Wizard 19[/COLOR]</summary>
-        <description lang="en">[COLOR lime]Alado [COLOR yellow]Wizard 19[/COLOR] offers many maintenance features, selective add-on data saving, and automated build installs.</description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
-        <news>
-2.0.0
- - Kodi 19 ready
- - Initial Commit
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Milhano" version="0.0.3">

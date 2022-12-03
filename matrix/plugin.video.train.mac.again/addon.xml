@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-	id="plugin.video.train.mac.again" version="1.0" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
+	id="plugin.video.train.mac.again" version="1.1" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
   <requires>    		
     	<!--<import addon="script.module.resolveurl" /> -->   	
         <import addon="script.module.requests"/>	
@@ -19,7 +19,7 @@
 		<platform>all</platform>
 		<disclaimer lang="pt">[COLORorange]GRUPO: @TRAIN_AGAIN[/COLOR]</disclaimer>
 	<assets>
-        <icon>icon.jpg</icon>  
+        <icon>icon.gif</icon>  
         <fanart>fanart.png</fanart>
     </assets>        
 		<language>pt</language>
