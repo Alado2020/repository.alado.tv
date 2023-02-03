@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="script.limpeza.Nexus" name="[COLOR lime][B]Script[/COLOR] [COLOR yellow]Limpeza[/B][/COLOR]" provider-name="LIKE A BOSS" version="1.2"> 
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" /> 
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>executable</provides>
+  </extension>
+  <extension library="service.py" point="xbmc.service" start="startup"> 
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata"> 
+    <platform>all</platform>
+    <summary lang="en_GB">Clean up files in Kodi Matrix Kodi Nexus.</summary>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <description lang="en_GB">Clean up temporary files in Kodi Matrix Kodi Nexus.</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
 
 <addon id="Wizard.Alado.Matrix" name="[COLOR lime][B]Alado [COLOR yellow]Wizard 19[/B][/COLOR]" version="1.5" provider-name="Alado">
     <requires>
