@@ -583,20 +583,6 @@ v5.1.4 (2022-02-05)
     </extension>
 </addon>
 
-<addon id="repository.camaradas.repo" name="[COLOR orangered]camaradas.repo[/COLOR]" version="2.0" provider-name="Team Camaradas">
-    <extension point="xbmc.addon.repository" name="camaradas.repo">
-        <info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio camaradas.repo</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon
   id="pvr.dark.angel"
   version="8.3"
@@ -1219,69 +1205,6 @@ mydisplay = MyClass()
 mydisplay .doModal()
 del mydisplay
 
-<addon id="plugin.video.tugak"
-       name="Tuga Kids"
-       version="1.3"
-       provider-name="Discave">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>    
-    <import addon="script.module.livestreamer" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Video em audio Pt</summary>
-   <description lang="en">Alguns dos melhores filmes de animação com o audio em Pt-pt
-	Necessita do URLResolver, HTTPLib2, Simplejson
-	Qualquer contacto https://www.facebook.com/groups/discavehbrepo/</description>
-	<disclaimer lang="en">Todos os conteúdos não são hospedados pelos intervinientes, são link's encontrados na net em qualquer motor de busca</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2019.12.29"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />   
-   <import addon="plugin.video.f4mTester" />
-   <import addon="script.module.slproxy" />
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportsDevil</summary>
-    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
-    <disclaimer lang="en">There can only be one.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="repository.quasar" name="Quasar Repository" version="0.9.78" provider-name="scakemyer"><requires></requires><extension point="xbmc.addon.repository" name="Quasar Repository"><info compressed="false">http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml</info><checksum>http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml.md5</checksum><datadir zip="true">http://localhost:65251/repository/scakemyer/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Quasar updates</summary></extension></addon>
 
