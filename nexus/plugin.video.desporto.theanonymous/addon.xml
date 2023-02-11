@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.desporto.theanonymous" name="[B][COLOR yellow]Desporto[/COLOR] [COLOR cyan]TheAnonymous[/B][/COLOR]" version="1.4" provider-name="[B][COLOR cyan]Desporto[/COLOR] [COLOR yellow]TheAnonymous[/B][/COLOR]"> 
+<addon id="plugin.video.desporto.theanonymous" name="[B][COLOR yellow]Desporto[/COLOR] [COLOR cyan]TheAnonymous[/B][/COLOR]" version="1.5" provider-name="[B][COLOR cyan]Desporto[/COLOR] [COLOR yellow]TheAnonymous[/B][/COLOR]"> 
 <requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -40,6 +40,6 @@
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
     </assets>	
-<news>Desporto TheAnonymous para Kodi Leia e Matrix</news>
+<news>Desporto TheAnonymous para Kodi Matrix Kodi Nexus</news>
 </extension>
 </addon>
