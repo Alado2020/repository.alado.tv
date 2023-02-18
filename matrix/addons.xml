@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="Wizard.Alado.Nexus" name="[COLOR lime][B]Wizard Alado Ne[COLOR red]X[COLOR lime]us[/B][/COLOR]" version="1.6" provider-name="Wizard Alado">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.3.4" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR lime]Wizard Alado Ne[COLOR red]X[COLOR lime]us[/COLOR]</summary>
+        <description lang="en">[COLOR lime]Wizard kodi 20[COLOR silver] oferece muitos recursos de manutenção, economia seletiva de dados complementares e instalações de compilação automatizadas.[/COLOR]</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+3.0.0
+ - Kodi Nexus 20.0
+ - Confirmação Inicial
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.vavooto" name="VAVOO.TO" version="6.2" provider-name="michaz | A-MoD">
     <requires>
         <import addon="script.module.requests"/>
