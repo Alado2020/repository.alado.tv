@@ -2,8 +2,8 @@
 <addons>
 
 <addon 	
-		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial, SEM BANIMENTO, agora compativel com Kodi Matrix!![/B][/COLOR]"
-		version="3.10"
+		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
+		version="3.31"
 		provider-name="[B][COLOR gold]Vikings TEAM[/B][/COLOR]">
 		
 		<requires>
@@ -47,15 +47,7 @@
 			<fanart>fanart.jpg</fanart>
         </assets>
 				
-	<news>
-	[COLOR orange]LOG DE CORREÇÔES[/COLOR]
-	
-	[COLOR green]*[/COLOR] V 2.00 - compatibilidade com Kodi 19 Matrix
-	[COLOR blue]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR red]*[/COLOR] V 1.53 - ajustes de dependencias...
-	[COLOR orange]*[/COLOR] V 1.15.1 - Excluido a instalação do plugin Youtube que provocava erros em algumas box...
-	[COLOR gold]*[/COLOR]   V 1.17.1 - Corrigido dependências que provocava erros quando instalado o repositório em Kodi Padrão.
-	</news>
+	<news></news>
 		
 	<summary>Repositório Vikings levando os melhores addons a sua familia e aos quatro cantos do Mundo!!!</summary>
 		
@@ -71,36 +63,6 @@
 	</extension>
 </addon>
 
-<addon
-	id="plugin.video.train.mac.again" version="0.1" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
-  <requires>    		
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>	
-        <import addon="script.module.six"/>
-        
-        <import addon="script.module.web-pdb" />
-	
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="pt"> @Train_Again</summary>
-		<description lang="pt">Este addon fornece TV apenas para uso pessoal e privado (Addon sem fins lucrativos)...</description>
-		<website>https://github.com/</website>
-		<license>GPL 3.0</license>
-		<platform>all</platform>
-		<disclaimer lang="pt">[COLORorange]GRUPO: @Train_Again[/COLOR]</disclaimer>
-	<assets>
-        <icon>icon.gif</icon>  
-        <fanart>fanart.png</fanart>
-    </assets>        
-		<language>pt</language>
-	</extension>	
-	
-</addon>
 
 <addon id="repository.twistednutz" name="[COLOR orange]Twisted Nutz Repo[/COLOR]" version="1.5" provider-name="[COLOR orange]Twisted Nutz[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR orange]Twisted Nutz[/COLOR]">
