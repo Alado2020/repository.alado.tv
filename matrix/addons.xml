@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+
+
 <addon 	
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
 		version="3.31"
@@ -262,24 +264,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="4.0.8" name="f4mTester" provider-name="Joel e Tiago">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.video.F4mProxy" version="4.0.9"/>		
-        <import addon="inputstream.ffmpegdirect"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>  
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">f4mTester</summary>
-        <description></description>
-        <platform>all</platform>
-        <assets>
-			<icon>icon.png</icon>
-		</assets>
-    </extension>
-</addon>
 
 <addon id="plugin.video.desporto.theanonymous" name="[B][COLOR yellow]Desporto[/COLOR] [COLOR cyan]TheAnonymous[/B][/COLOR]" version="1.5" provider-name="[B][COLOR cyan]Desporto[/COLOR] [COLOR yellow]TheAnonymous[/B][/COLOR]"> 
 <requires>
