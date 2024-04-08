@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="Wizard.Alado.Nexus" name="[COLOR lime][B]Wizard Alado Ne[COLOR red]X[COLOR lime]us[/B][/COLOR]" version="1.6" provider-name="Wizard Alado">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.3.4" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR lime]Wizard Alado Ne[COLOR red]X[COLOR lime]us[/COLOR]</summary>
+        <description lang="en">[COLOR lime]Wizard kodi 20[COLOR silver] oferece muitos recursos de manutenção, economia seletiva de dados complementares e instalações de compilação automatizadas.[/COLOR]</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+3.0.0
+ - Kodi Nexus 20.0
+ - Confirmação Inicial
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.desporto.theanonymous" name="[B][COLOR yellow]Desporto[/COLOR] [COLOR cyan]TheAnonymous[/B][/COLOR]" version="1.5" provider-name="[B][COLOR cyan]Desporto[/COLOR] [COLOR yellow]TheAnonymous[/B][/COLOR]"> 
+<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+		<import addon="script.module.horus" version="1.1.5" />
+	</requires>
+   <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension> 
+ <extension point="xbmc.addon.repository" name="repository.alado.tv">	
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/</datadir>
+		<dir minversion="18.9.1">
+			<info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/</datadir>
+		</dir>
+	</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<summary lang="pt">By TheAnonymous</summary>
+	<description lang="en"></description>
+	<description lang="pt">TheAnonymous "WE LEAD THE WAY"</description>
+    <disclaimer lang="en"></disclaimer>
+	<disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>	
+<news>Desporto TheAnonymous para Kodi Matrix Kodi Nexus</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.theanonymous.nexus" name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Nexus [/B][/COLOR]" version="2.7" provider-name="[B][COLOR dodgerblue]TheAnonymous [/COLOR][COLOR red]Nexus [/B][/COLOR]"> 
+<requires>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.six"/>
+    <import addon="script.module.kodi-six"/>
+  </requires> 
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension> 
+ <extension point="xbmc.addon.repository" name="repository.alado.tv">	
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/</datadir>
+		<dir minversion="18.9.1">
+			<info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/</datadir>
+		</dir>
+	</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<summary lang="pt">By TheAnonymous</summary>
+	<description lang="en"></description>
+	<description lang="pt">TheAnonymous "WE LEAD THE WAY"</description>
+    <disclaimer lang="en"></disclaimer>
+	<disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>	
+<news>TheAnonymous no Kodi Matrix Nexus plataforma Python3</news>
+</extension>
+</addon>
+
+<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
+    <requires>
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>Horus:
+"Señor de sus ojos"
+"Unificador de las dos tierras"
+"Señor de las estrellas circumpolares"
+"El de los dos ojos"
+        </description>
+        <disclaimer>En Horus no vais a encontrar ningún tipo de contenido: ni películas, ni series ni eventos deportivos.</disclaimer>
+        <platform>all</platform>
+        <assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+              <screenshot>resources/media/Captura1.png</screenshot>
+              <screenshot>resources/media/Captura2.png</screenshot>
+              <screenshot>resources/media/Captura3.png</screenshot>
+              <screenshot>resources/media/Captura4.png</screenshot>
+        </assets>
+        <news>
+            - Añadido soporte para enlaces magnet-torrent
+        </news>
+        <forum>https://t.me/KodiManiac
+        https://t.me/acestream_spanish</forum>
+    </extension>
+</addon>
+
+<addon id="script.limpeza.Nexus" name="[COLOR lime][B]Script[/COLOR] [COLOR yellow]Limpeza[/B][/COLOR]" provider-name="LIKE A BOSS" version="1.2"> 
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" /> 
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>executable</provides>
+  </extension>
+  <extension library="service.py" point="xbmc.service" start="startup"> 
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata"> 
+    <platform>all</platform>
+    <summary lang="en_GB">Clean up files in Kodi Matrix Kodi Nexus.</summary>
+    <license>GNU GENERAL PUBLIC LICENSE.</license>
+    <description lang="en_GB">Clean up temporary files in Kodi Matrix Kodi Nexus.</description>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+</addons>
