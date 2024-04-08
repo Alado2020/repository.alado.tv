@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.alado" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.3" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="repository.alado">
+	
+        <dir minversion="21.0.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/</datadir>
+		</dir>
 
-<addon id="repository.alado.tv" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.2" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
-	<extension point="xbmc.addon.repository" name="repository.alado.tv">	
-		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/leia/</datadir>
-		<dir minversion="19">
+	    <dir minversion="20.0.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/</datadir>
+		</dir>
+		
+		<dir minversion="19.0.0">
 			<info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/</datadir>
-		</dir>
-		<dir minversion="20">
-			<info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -31,4 +35,5 @@
     </assets>
 	</extension>
 </addon>
+
 </addons>

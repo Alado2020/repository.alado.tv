@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.alado" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.3" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="repository.alado">
+	
+        <dir minversion="21.0.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/</datadir>
+		</dir>
+
+	    <dir minversion="20.0.0">
+		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/</datadir>
+		</dir>
+		
+		<dir minversion="19.0.0">
+			<info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/matrix/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR gold]By Team Milhano[/COLOR]</summary>
+		<description>[COLOR gold]By Team Milhano[/COLOR]</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	<assets>
+        <icon>icon.gif</icon>
+        <fanart>fanart.gif</fanart>
+        <screenshot>resources/screenshot000.jpg</screenshot>
+        <screenshot>resources/screenshot001.jpg</screenshot>
+        <screenshot>resources/screenshot002.jpg</screenshot>
+    </assets>
+	</extension>
+</addon>

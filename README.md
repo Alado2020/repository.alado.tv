@@ -1,2 +1,2 @@
-# repository.alado.tv
+# repository.alado
  
