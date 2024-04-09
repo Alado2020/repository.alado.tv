@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.alado" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.3" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
-	<extension point="xbmc.addon.repository" name="repository.alado">
+<addon id="repository.alado.tv" name="[COLOR lime][B]Alado[/COLOR][COLOR gold] Repository[/B][/COLOR]" version="0.0.3" provider-name="[COLOR lime][B]ALADO[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="repository.alado.tv">
 	
         <dir minversion="21.0.0">
 		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml</info>
@@ -35,5 +35,4 @@
     </assets>
 	</extension>
 </addon>
-
 </addons>
