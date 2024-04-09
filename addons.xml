@@ -5,13 +5,13 @@
 	<extension point="xbmc.addon.repository" name="repository.alado.tv">
 	
         <dir minversion="21.0.0">
-		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/main/omega/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/main/omega/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/main/omega/</datadir>
+		    <info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/omega/</datadir>
 		</dir>
 
 	    <dir minversion="20.0.0">
-		    <info compressed="false">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml</info>
+		    <info compressed="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/Alado2020/repository.alado.tv/master/nexus/</datadir>
 		</dir>
