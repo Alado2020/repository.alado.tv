@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="Wizard.Alado.Omega" name="[COLOR cyan]Wizard Alado [COLOR orange]OM[COLOR red]E[COLOR cyan]GA[/COLOR]" version="1.7" provider-name="[COLOR yellow]Wizard Alado[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.3.4" />
+		<import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR cyan]Wizard Alado [COLOR orange]OM[COLOR red]E[COLOR cyan]GA[/COLOR]</summary>
+        <description lang="en">[COLOR lime]Wizard kodi 21[COLOR silver] oferece muitos recursos de manutenção, economia seletiva de dados complementares e instalações de compilação automatizadas.[/COLOR]</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+3.0.0
+ - Kodi Omega 21.0
+ - Confirmação Inicial
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
