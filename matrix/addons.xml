@@ -190,37 +190,6 @@
     </extension>
 </addon>
 
-<addon
-	id="plugin.video.train.mac.again" version="0.1" name="[COLORorange]TRAIN MAC AGAIN[/COLOR]" provider-name="[COLORorange]GRUPO:Train_Again[/COLOR]">
-  <requires>    		
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>	
-        <import addon="script.module.six"/>
-        
-        <import addon="script.module.web-pdb" />
-	
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="pt"> @Train_Again</summary>
-		<description lang="pt">Este addon fornece TV apenas para uso pessoal e privado (Addon sem fins lucrativos)...</description>
-		<website>https://github.com/</website>
-		<license>GPL 3.0</license>
-		<platform>all</platform>
-		<disclaimer lang="pt">[COLORorange]GRUPO: @Train_Again[/COLOR]</disclaimer>
-	<assets>
-        <icon>icon.gif</icon>  
-        <fanart>fanart.png</fanart>
-    </assets>        
-		<language>pt</language>
-	</extension>	
-	
-</addon>
-
 <addon 	
 		id="vkkodi.repo" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repositorio Vikings Oficial! A Casa Oficial dos Melhores Add-ons BR[/B][/COLOR]"
 		version="3.31"
@@ -409,32 +378,6 @@
 </addon>
 
 
-<addon id="script.pvr.stalker.Train_Again" name="[COLORorange]Pach API Stalker[/COLOR]" version="2.3" provider-name="[COLORorange]GRUPO TRAIN_AGAIN[/COLOR] - Train_Again, adm:Cleber,Sepol">
-   <requires>
-	<import addon="script.module.six" />
-	<import addon="pvr.stalker" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>  
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en"></summary>
-    <summary lang="pt"></summary>
-    <description lang="en"></description>
-	<description lang="pt"></description>
-     <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-    <description>
-        Addon sem fins lucrativos
-        Todo conteúdo encontra-se disponivel na internet, apenas agregamos os links
-    </description>
-	<assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
 
 <addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Milhano" version="0.0.3">
   <requires>
@@ -894,40 +837,6 @@ v5.1.2 (2020-03-21) by enen92
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="plugin.video.tvworld"
-       name="[COLOR lime]TV WORLD[/COLOR]"
-       version="1.0"
-       provider-name="[COLOR yellow]TV WORLD[/COLOR]">
-  <requires>
-    <!-- <import addon="xbmc.python" version="2.26.0" /> -->
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-        <summary lang="en">By TheAnonymous</summary>
-        <description>"WE LEAD THE WAY"</description>
-        <disclaimer lang="en">By TheAnonymous</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-    <assets>
-        <icon>icon.gif</icon>
-        <fanart>fanart.gif</fanart>
-    </assets>
-  </extension>
-</addon>
-
 
 <addon id="plugin.video.redbull.tv" name="Red Bull TV" version="3.2.2+matrix.1" provider-name="piejanssens">
   <requires>
